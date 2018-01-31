@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!--使得IE内核使用更高的渲染显示效果-->
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<!--设置支持移动端的视窗-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--上述三个mata标签必须放在最前面-->
+		<title>栅格化和表格</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<!--引用jquery插件-->
+	<script src="js/jquery3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<!--引用bootstrap插件-->
+	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+<style type="text/css">
+	.row >div{
+		border: 1px solid blue;
+		height: 300px;
+		padding: 10px;
+	}
+	
+	
+</style>
+	<body>
+		
+		
+		<div class="container">
+			<div class="row">
+				<!--使用栅格化必须使用这个框-->  
+				<div class="col-lg-3 col-sm-4 col-xs-6">
+					
+				<!--表格自适应屏幕大小要加这个div-->
+			<div class="table-responsive">
+				               <!-- 分别是表格边框、表格鼠标悬停样式、表格分行显示颜色-->
+				<table class="table table-bordered table-hover table-striped">
+					<thead>
+						<th>标题1</th>
+						<th>标题2</th>
+						<th>标题3</th>
+						<th>标题4</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+							<td>4</td>
+						</tr>
+						
+					</tbody>
+				</table>
+				
+				
+				
+			</div>
+				</div>
+				<div class="col-lg-3 col-sm-4 col-xs-6">2</div>	
+				<div class="col-lg-3 col-sm-2 col-xs-6">3</div>
+				<div class="col-lg-3 col-sm-2 col-xs-6">4</div>
+			</div>
+		</div>
+		
+
+	</body>
+</html>

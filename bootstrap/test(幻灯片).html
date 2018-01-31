@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!--使得IE内核使用更高的渲染显示效果-->
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<!--设置支持移动端的视窗-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--上述三个mata标签必须放在最前面-->
+		<title>基本模板</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<!--引用jquery插件-->
+	<script src="js/jquery3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<!--引用bootstrap插件-->
+	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+
+	
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					1
+				</div>
+				<div class="col-lg-4">
+					<!--注意：这里的id可以随便改，但必须和后面的data-toggle保持一致-->
+		<div id="keyigaide" class="carousel slide" data-ride="carousel">
+			<!--按钮列表-->
+			<ol class="carousel-indicators">
+				<li data-target="#keyigaide" data-slide-to="0" class="active"></li>
+				<li data-target="#keyigaide" data-slide-to="1" ></li>
+				<li data-target="#keyigaide" data-slide-to="2" ></li>
+				<li data-target="#keyigaide" data-slide-to="3" ></li>
+			</ol>
+			
+			<!--图片列表-->
+			<div class="carousel-inner" role="listbox">
+				
+				<div class="item active">
+					<img src="img/20130310193015_3ZdwW.thumb.600_0.jpeg" alt="1"/>
+					<div class="carousel-caption">
+						<!--图片描述开始-->
+						<h3>..</h3>
+						<p>..</p>
+						<!--图片描述结束-->
+					</div>
+				</div>
+				
+				<div class="item">
+					<img src="img/2013091123182664.jpg" alt="1"/>
+					<div class="carousel-caption">
+						<!--图片描述开始-->
+						<h3>..</h3>
+						<p>..</p>
+						<!--图片描述结束-->
+					</div>
+				</div>
+				
+				<div class="item">
+					<img src="img/20160713154957678313.jpg" alt="1"/>
+					<div class="carousel-caption">
+						<!--图片描述开始-->
+						<h3>..</h3>
+						<p>..</p>
+						<!--图片描述结束-->
+					</div>
+				</div>
+				
+				<div class="item">
+					<img src="img/150.jpg" alt="1"/>
+					<div class="carousel-caption">
+						<!--图片描述开始-->
+						<h3>..</h3>
+						<p>..</p>
+						<!--图片描述结束-->
+					</div>
+				</div>
+			</div>
+			<!--左右切换按钮-->
+			<a href="#keyigaide" class="left carousel-control" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">previous</span>
+			</a>
+			<a href="#keyigaide" class="right carousel-control" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">next</span>
+			</a>
+		</div>
+				</div>
+				<div class="col-lg-4">
+					
+				</div>
+	
+		
+				</div>
+		
+		</div>
+			
+		
+	</body>
+</html>
